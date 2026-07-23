@@ -834,6 +834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   model: {fileID: 972290360}
+  bulletPref: {fileID: 4141448696248800103, guid: 74db1220bd748184aad6f53e7215d46c, type: 3}
 --- !u!4 &2086574355
 Transform:
   m_ObjectHideFlags: 0
