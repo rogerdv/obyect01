@@ -16,4 +16,11 @@ public class Projectile : MonoBehaviour
         transform.Translate(dir*10.0f*Time.deltaTime);
         //transform.position = Vector3.MoveTowards(transform.position)
     }
+
+    private void OnTriggerEnter(Collider other)
+    {        
+        
+        other.GetComponent<TestTarget>().TakeDamage(1);
+        Destroy(gameObject);
+    }
 }
